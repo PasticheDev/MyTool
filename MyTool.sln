@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTool", "MyTool.csproj", "{3AFD3415-76F7-4B41-809E-321100D5BA21}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD09A887-4FA1-4D9D-B619-A5E2CE7B9902}"
+	ProjectSection(SolutionItems) = preProject
+		bin\UserStories\Iteration 1.txt = bin\UserStories\Iteration 1.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
