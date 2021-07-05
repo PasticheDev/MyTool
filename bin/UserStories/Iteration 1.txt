@@ -1,0 +1,13 @@
+Titel:                                         
+Story:                                    
+Akzeptanzkriterien: 
+
+
+Titel:                   Inhaltsverzeichnis, Tabelle für Terminplan    
+Story:                   Als Entwickler möchte ich das Inhaltsverzeichnis und die Datenbank (Für den Terminplan) erstellen 
+Akzeptanzkriterien:      Inhaltsverzeichnis mit Buttons, Datenbanktabelle mit allen Uhrzeiten für die Wochentage
+
+
+Titel:                   XAML Design für den Terminplan
+Story:                   Als Entwickler möchte ich Layout für den Terminplan in XAML erstellen um die Daten eintragen zu können
+Akzeptanzkriterien:      Textboxen erstellt und benannt, Buttons für Rückkehr zum Hauptmenü erstellt
