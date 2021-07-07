@@ -11,8 +11,3 @@ Akzeptanzkriterien:      Inhaltsverzeichnis mit Buttons, Datenbanktabelle mit
 Titel:                   XAML Design für den Terminplan
 Story:                   Als Entwickler möchte ich Layout für den Terminplan in XAML erstellen um die Daten eintragen zu können
 Akzeptanzkriterien:      Textboxen erstellt und benannt, Buttons für Rückkehr zum Hauptmenü erstellt
-
-
-Titel:            		XAML Terminplan                             
-Story:                  Als Entwickler möchte ich die Textboxen für jeden Tag und jede Uhrzeit erstellen und sie mit Daten füllen               
-Akzeptanzkriterien: 	Textboxen erstellt

@@ -21,10 +21,10 @@
         </Style>
         <Style TargetType="Button">
             <Setter Property="Width" Value="150"/>
-            <Setter Property="Height" Value="70"/>
+            <Setter Property="Height" Value="60"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Margin" Value="10,0,10,6"/>
+            <Setter Property="Margin" Value="10,5,10,6"/>
             <Setter Property="FontSize" Value="28"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="BorderThickness" Value="5"/>
@@ -93,9 +93,8 @@
         <Label Name="lbl_samstag" Content="Samstag" Grid.Row="0" Grid.Column="6" BorderThickness="0,0,0,3" FontSize="22" Width="130"/>
         <Label Name="lbl_sonntag" Content="Sonntag" Grid.Row="0" Grid.Column="7" BorderThickness="0,0,0,3" FontSize="22" Width="130"/>
         <!--#endregion-->
-        
 
-
+        <!--#region Buttons-->
         <!--Buttons zur Steuerung inkl. Dockpanel-->
         <DockPanel Grid.Column="0" Grid.Row="16" Grid.ColumnSpan="8" Height="70" HorizontalAlignment="Center" Background="CadetBlue">
             <Button x:Name="btn_laden" Content="Laden"/>
@@ -103,7 +102,145 @@
             <Button x:Name="btn_Löschen" Content="Löschen"/>
             
         </DockPanel>    
-
+        <!--#endregion-->
+        
+        <!--#region Textboxen-->
+        <!--#region 6-7 Uhr-->
+        <TextBox x:Name="tb_1" Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="tb_2" Grid.Row="1" Grid.Column="2"/>
+        <TextBox x:Name="tb_3" Grid.Row="1" Grid.Column="3"/>
+        <TextBox x:Name="tb_4" Grid.Row="1" Grid.Column="4"/>
+        <TextBox x:Name="tb_5" Grid.Row="1" Grid.Column="5"/>
+        <TextBox x:Name="tb_6" Grid.Row="1" Grid.Column="6"/>
+        <TextBox x:Name="tb_7" Grid.Row="1" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 7-8 Uhr-->
+        <TextBox x:Name="tb_8" Grid.Row="2" Grid.Column="1"/>
+        <TextBox x:Name="tb_9" Grid.Row="2" Grid.Column="2"/>
+        <TextBox x:Name="tb_10" Grid.Row="2" Grid.Column="3"/>
+        <TextBox x:Name="tb_11" Grid.Row="2" Grid.Column="4"/>
+        <TextBox x:Name="tb_12" Grid.Row="2" Grid.Column="5"/>
+        <TextBox x:Name="tb_13" Grid.Row="2" Grid.Column="6"/>
+        <TextBox x:Name="tb_14" Grid.Row="2" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 8-9 Uhr-->
+        <TextBox x:Name="tb_15" Grid.Row="3" Grid.Column="1"/>
+        <TextBox x:Name="tb_16" Grid.Row="3" Grid.Column="2"/>
+        <TextBox x:Name="tb_17" Grid.Row="3" Grid.Column="3"/>
+        <TextBox x:Name="tb_18" Grid.Row="3" Grid.Column="4"/>
+        <TextBox x:Name="tb_19" Grid.Row="3" Grid.Column="5"/>
+        <TextBox x:Name="tb_20" Grid.Row="3" Grid.Column="6"/>
+        <TextBox x:Name="tb_21" Grid.Row="3" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 9-10 Uhr-->
+        <TextBox x:Name="tb_22" Grid.Row="4" Grid.Column="1"/>
+        <TextBox x:Name="tb_23" Grid.Row="4" Grid.Column="2"/>
+        <TextBox x:Name="tb_24" Grid.Row="4" Grid.Column="3"/>
+        <TextBox x:Name="tb_25" Grid.Row="4" Grid.Column="4"/>
+        <TextBox x:Name="tb_26" Grid.Row="4" Grid.Column="5"/>
+        <TextBox x:Name="tb_27" Grid.Row="4" Grid.Column="6"/>
+        <TextBox x:Name="tb_28" Grid.Row="4" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 10-11 Uhr-->
+        <TextBox x:Name="tb_29" Grid.Row="5" Grid.Column="1"/>
+        <TextBox x:Name="tb_30" Grid.Row="5" Grid.Column="2"/>
+        <TextBox x:Name="tb_31" Grid.Row="5" Grid.Column="3"/>
+        <TextBox x:Name="tb_32" Grid.Row="5" Grid.Column="4"/>
+        <TextBox x:Name="tb_33" Grid.Row="5" Grid.Column="5"/>
+        <TextBox x:Name="tb_34" Grid.Row="5" Grid.Column="6"/>
+        <TextBox x:Name="tb_35" Grid.Row="5" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 11-12 Uhr-->
+        <TextBox x:Name="tb_36" Grid.Row="6" Grid.Column="1"/>
+        <TextBox x:Name="tb_37" Grid.Row="6" Grid.Column="2"/>
+        <TextBox x:Name="tb_38" Grid.Row="6" Grid.Column="3"/>
+        <TextBox x:Name="tb_39" Grid.Row="6" Grid.Column="4"/>
+        <TextBox x:Name="tb_40" Grid.Row="6" Grid.Column="5"/>
+        <TextBox x:Name="tb_41" Grid.Row="6" Grid.Column="6"/>
+        <TextBox x:Name="tb_42" Grid.Row="6" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 12-13 Uhr-->
+        <TextBox x:Name="tb_43" Grid.Row="7" Grid.Column="1"/>
+        <TextBox x:Name="tb_44" Grid.Row="7" Grid.Column="2"/>
+        <TextBox x:Name="tb_45" Grid.Row="7" Grid.Column="3"/>
+        <TextBox x:Name="tb_46" Grid.Row="7" Grid.Column="4"/>
+        <TextBox x:Name="tb_47" Grid.Row="7" Grid.Column="5"/>
+        <TextBox x:Name="tb_48" Grid.Row="7" Grid.Column="6"/>
+        <TextBox x:Name="tb_49" Grid.Row="7" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 13-14 Uhr-->
+        <TextBox x:Name="tb_50" Grid.Row="8" Grid.Column="1"/>
+        <TextBox x:Name="tb_51" Grid.Row="8" Grid.Column="2"/>
+        <TextBox x:Name="tb_52" Grid.Row="8" Grid.Column="3"/>
+        <TextBox x:Name="tb_53" Grid.Row="8" Grid.Column="4"/>
+        <TextBox x:Name="tb_54" Grid.Row="8" Grid.Column="5"/>
+        <TextBox x:Name="tb_55" Grid.Row="8" Grid.Column="6"/>
+        <TextBox x:Name="tb_56" Grid.Row="8" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 14-15 Uhr-->
+        <TextBox x:Name="tb_57" Grid.Row="9" Grid.Column="1"/>
+        <TextBox x:Name="tb_58" Grid.Row="9" Grid.Column="2"/>
+        <TextBox x:Name="tb_59" Grid.Row="9" Grid.Column="3"/>
+        <TextBox x:Name="tb_60" Grid.Row="9" Grid.Column="4"/>
+        <TextBox x:Name="tb_61" Grid.Row="9" Grid.Column="5"/>
+        <TextBox x:Name="tb_62" Grid.Row="9" Grid.Column="6"/>
+        <TextBox x:Name="tb_63" Grid.Row="9" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 15-16 Uhr-->
+        <TextBox x:Name="tb_64" Grid.Row="10" Grid.Column="1"/>
+        <TextBox x:Name="tb_65" Grid.Row="10" Grid.Column="2"/>
+        <TextBox x:Name="tb_66" Grid.Row="10" Grid.Column="3"/>
+        <TextBox x:Name="tb_67" Grid.Row="10" Grid.Column="4"/>
+        <TextBox x:Name="tb_69" Grid.Row="10" Grid.Column="5"/>
+        <TextBox x:Name="tb_70" Grid.Row="10" Grid.Column="6"/>
+        <TextBox x:Name="tb_71" Grid.Row="10" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 16-17 Uhr-->
+        <TextBox x:Name="tb_72" Grid.Row="11" Grid.Column="1"/>
+        <TextBox x:Name="tb_73" Grid.Row="11" Grid.Column="2"/>
+        <TextBox x:Name="tb_74" Grid.Row="11" Grid.Column="3"/>
+        <TextBox x:Name="tb_75" Grid.Row="11" Grid.Column="4"/>
+        <TextBox x:Name="tb_76" Grid.Row="11" Grid.Column="5"/>
+        <TextBox x:Name="tb_77" Grid.Row="11" Grid.Column="6"/>
+        <TextBox x:Name="tb_78" Grid.Row="11" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 17-18 Uhr-->
+        <TextBox x:Name="tb_79" Grid.Row="12" Grid.Column="1"/>
+        <TextBox x:Name="tb_80" Grid.Row="12" Grid.Column="2"/>
+        <TextBox x:Name="tb_81" Grid.Row="12" Grid.Column="3"/>
+        <TextBox x:Name="tb_82" Grid.Row="12" Grid.Column="4"/>
+        <TextBox x:Name="tb_83" Grid.Row="12" Grid.Column="5"/>
+        <TextBox x:Name="tb_84" Grid.Row="12" Grid.Column="6"/>
+        <TextBox x:Name="tb_85" Grid.Row="12" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 18-19 Uhr-->
+        <TextBox x:Name="tb_86" Grid.Row="13" Grid.Column="1"/>
+        <TextBox x:Name="tb_87" Grid.Row="13" Grid.Column="2"/>
+        <TextBox x:Name="tb_88" Grid.Row="13" Grid.Column="3"/>
+        <TextBox x:Name="tb_89" Grid.Row="13" Grid.Column="4"/>
+        <TextBox x:Name="tb_90" Grid.Row="13" Grid.Column="5"/>
+        <TextBox x:Name="tb_91" Grid.Row="13" Grid.Column="6"/>
+        <TextBox x:Name="tb_92" Grid.Row="13" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 19-20 Uhr-->
+        <TextBox x:Name="tb_93" Grid.Row="14" Grid.Column="1"/>
+        <TextBox x:Name="tb_94" Grid.Row="14" Grid.Column="2"/>
+        <TextBox x:Name="tb_95" Grid.Row="14" Grid.Column="3"/>
+        <TextBox x:Name="tb_96" Grid.Row="14" Grid.Column="4"/>
+        <TextBox x:Name="tb_97" Grid.Row="14" Grid.Column="5"/>
+        <TextBox x:Name="tb_98" Grid.Row="14" Grid.Column="6"/>
+        <TextBox x:Name="tb_99" Grid.Row="14" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#region 20-21 Uhr-->
+        <TextBox x:Name="tb_100" Grid.Row="15" Grid.Column="1"/>
+        <TextBox x:Name="tb_101" Grid.Row="15" Grid.Column="2"/>
+        <TextBox x:Name="tb_102" Grid.Row="15" Grid.Column="3"/>
+        <TextBox x:Name="tb_103" Grid.Row="15" Grid.Column="4"/>
+        <TextBox x:Name="tb_104" Grid.Row="15" Grid.Column="5"/>
+        <TextBox x:Name="tb_105" Grid.Row="15" Grid.Column="6"/>
+        <TextBox x:Name="tb_106" Grid.Row="15" Grid.Column="7"/>
+        <!--#endregion-->
+        <!--#endregion-->
         
     </Grid>
     
