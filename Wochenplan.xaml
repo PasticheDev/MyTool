@@ -98,7 +98,7 @@
         <!--Buttons zur Steuerung inkl. Dockpanel-->
         <DockPanel Grid.Column="0" Grid.Row="16" Grid.ColumnSpan="8" Height="70" HorizontalAlignment="Center" Background="CadetBlue">
             <Button x:Name="btn_laden" Content="Laden"/>
-            <Button x:Name="btn_speichern" Content="Speichern"/>
+            <Button x:Name="btn_speichern" Content="Speichern" Click="btn_speichern_Click"/>
             <Button x:Name="btn_Löschen" Content="Löschen"/>
             
         </DockPanel>    
