@@ -16,3 +16,7 @@ Akzeptanzkriterien:      Textboxen erstellt und benannt, Buttons für Rückk
 Titel:            		XAML Terminplan                             
 Story:                  Als Entwickler möchte ich die Textboxen für jeden Tag und jede Uhrzeit erstellen und sie mit Daten füllen               
 Akzeptanzkriterien: 	Textboxen erstellt
+
+Titel:                  MyTool Inhaltsverzeichnis, Terminplan                       
+Story:                  Als User möchte ich im Inhaltsverz. auf "Terminplan" klicken und das Fenster öffnen.                  
+Akzeptanzkriterien: 	Terminplan öffnet sich beim klick auf "Terminplan"

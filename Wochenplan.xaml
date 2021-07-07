@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyTool"
         mc:Ignorable="d"
-        Title="Wochenplan" Height="800" Width="1200">
+        Title="Wochenplan" Height="800" Width="1200" Background="CadetBlue">
     <Window.Resources>
         <Style TargetType="Label">
             <Setter Property="Background" Value="CadetBlue"/>
@@ -35,7 +35,7 @@
             <Setter Property="Background" Value="CadetBlue"/>
         </Style>
     </Window.Resources>
-    <Grid>
+    <Grid Margin="0,0,20,0">
         <Grid.RowDefinitions>
             <RowDefinition Height="52"/>
             <RowDefinition/>
