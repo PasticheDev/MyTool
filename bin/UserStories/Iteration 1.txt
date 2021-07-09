@@ -47,4 +47,9 @@ Story:                  Als Entwickler möchte ich den Speichern Button
 Akzeptanzkriterien: 	Speichern Button aktiviert sich nach dem Laden, Schließen Button Schließt das aktuelle Fenster
 ----------------------------------------
 
+Titel:                  Wochenplan, Löschen Button                       
+Story:                  Als Entwickler möchte ich den "Löschen" Button dazu verwenden die Inhalte des Wochenplanes zurückzusetzen                  
+Akzeptanzkriterien: 	Löschen Button löscht die Inhalte des Wochenplans
+----------------------------------------
+
 
