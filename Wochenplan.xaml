@@ -34,6 +34,11 @@
         <Style TargetType="Window">
             <Setter Property="Background" Value="CadetBlue"/>
         </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="27"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            
+        </Style>
     </Window.Resources>
     <Grid Margin="0,0,20,0">
         <Grid.RowDefinitions>
@@ -97,7 +102,7 @@
         <!--#region Buttons-->
         <!--Buttons zur Steuerung inkl. Dockpanel-->
         <DockPanel Grid.Column="0" Grid.Row="16" Grid.ColumnSpan="8" Height="70" HorizontalAlignment="Center" Background="CadetBlue">
-            <Button x:Name="btn_laden" Content="Laden"/>
+            <Button x:Name="btn_laden" Content="Laden" Click="btn_laden_Click"/>
             <Button x:Name="btn_speichern" Content="Speichern" Click="btn_speichern_Click"/>
             <Button x:Name="btn_Löschen" Content="Löschen"/>
             
