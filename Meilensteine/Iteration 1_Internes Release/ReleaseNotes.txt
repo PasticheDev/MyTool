@@ -1,0 +1,5 @@
+Version: 0.0.0.1
+Typ: Internes Release
+Datum: 09.07.2021
+Neue Features: Laden aus Datei, Speichern in Datei, Löschen der Daten, Beenden des Fensters, Hintergrund befüllt (Rot), Hintergrund leer (Grün)
+Ordner für die Speicherdatei ...bin\debug
