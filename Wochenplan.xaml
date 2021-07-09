@@ -104,7 +104,8 @@
         <DockPanel Grid.Column="0" Grid.Row="16" Grid.ColumnSpan="8" Height="70" HorizontalAlignment="Center" Background="CadetBlue">
             <Button x:Name="btn_laden" Content="Laden" Click="btn_laden_Click"/>
             <Button x:Name="btn_speichern" Content="Speichern" Click="btn_speichern_Click"/>
-            <Button x:Name="btn_Löschen" Content="Löschen"/>
+            <Button x:Name="btn_löschen" Content="Löschen"/>
+            <Button x:Name="btn_beenden" Content="Beenden"/>
             
         </DockPanel>    
         <!--#endregion-->

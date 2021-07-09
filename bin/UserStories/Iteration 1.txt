@@ -1,26 +1,50 @@
 Titel:                                         
 Story:                                    
 Akzeptanzkriterien: 
+----------------------------------------
 
 
 Titel:                   Inhaltsverzeichnis, Tabelle für Wochenplan
 Story:                   Als Entwickler möchte ich das Inhaltsverzeichnis und die Datenbank (Für den Terminplan) erstellen 
 Akzeptanzkriterien:      Inhaltsverzeichnis mit Buttons, Datenbanktabelle mit allen Uhrzeiten für die Wochentage
+----------------------------------------
+
 
 
 Titel:                   XAML Design für den Wochenplan
 Story:                   Als Entwickler möchte ich Layout für den Terminplan in XAML erstellen um die Daten eintragen zu können
 Akzeptanzkriterien:      Textboxen erstellt und benannt, Buttons für Rückkehr zum Hauptmenü erstellt
+----------------------------------------
+
 
 
 Titel:            		XAML Wochenplan                             
 Story:                  Als Entwickler möchte ich die Textboxen für jeden Tag und jede Uhrzeit erstellen und sie mit Daten füllen               
 Akzeptanzkriterien: 	Textboxen erstellt
+----------------------------------------
+
 
 Titel:                  MyTool Inhaltsverzeichnis, Terminplan                       
 Story:                  Als User möchte ich im Inhaltsverz. auf "Terminplan" klicken und das Fenster öffnen.                  
 Akzeptanzkriterien: 	Terminplan öffnet sich beim klick auf "Terminplan"
+-----------------------------------------
+
 
 Titel:                  Wochenplan Daten Laden                      
 Story:                  Als User möchte ich die gespeicherten Daten aus der Datei in den Wochenplan laden können um sie zu betrachten / zu ändern                  
 Akzeptanzkriterien:		"Laden" Button lädt die Daten korrekt aus der gespeicherten Datei. Wenn die Datei noch nicht existiert, soll sie erstellt werden.
+----------------------------------------
+
+
+
+Titel:                  Wochenplan, Hintergrundfarbe bei Befüllung                       
+Story:                  Als User möchte ich einen Vergebenen Slot rot sehen und einen freien Slot grün um besser planen zu können                  
+Akzeptanzkriterien: 	Hintergrundfarbe ändert sich beim Speichern befüllt rot, nicht befüllt grün (Auch beim Laden sind die Farben so)
+----------------------------------------
+
+Titel:                  Wochenplan, Speichern Button und Schließen Button                       
+Story:                  Als Entwickler möchte ich den Speichern Button nur aktivieren, wenn geladen wurde und einen Schließen Button einfügen                  
+Akzeptanzkriterien: 	Speichern Button aktiviert sich nach dem Laden, Schließen Button Schließt das aktuelle Fenster
+----------------------------------------
+
+
