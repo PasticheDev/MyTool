@@ -131,6 +131,15 @@ namespace MyTool
                 }
             }
             #endregion
+
+            // Button Speichern wird jetzt nach dem Laden aktiviert
+            btn_speichern.IsEnabled = true;
+        }
+
+        private void btn_beenden_Click(object sender, RoutedEventArgs e)
+        {
+            // Dieser Button beendet das Wochenplan-Fenster
+            this.Close();
         }
     }
 }
