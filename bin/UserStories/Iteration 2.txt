@@ -1,0 +1,9 @@
+Titel:                                         
+Story:                                    
+Akzeptanzkriterien: 
+----------------------------------------
+
+Titel:                  Terminplan direkt laden                        
+Story:                  Als Entwickler möchte ich die Speicherdatei direkt beim Start laden damit nicht erst der Laden Button benötigt wird                  
+Akzeptanzkriterien: 	Laden Button auskommentiert, Speicherdatei lädt vom Start weg.
+----------------------------------------
