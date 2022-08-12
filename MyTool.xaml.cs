@@ -21,5 +21,12 @@ namespace MyTool
             
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Wetter wetter = new Wetter();
+            wetter.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            wetter.Show();
+        }
     }
 }

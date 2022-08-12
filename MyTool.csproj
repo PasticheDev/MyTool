@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Wetter.xaml.cs">
+      <DependentUpon>Wetter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Wochenplan.xaml.cs">
       <DependentUpon>Wochenplan.xaml</DependentUpon>
     </Compile>
@@ -70,6 +73,10 @@
       <DependentUpon>MyTool.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Wetter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Wochenplan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
