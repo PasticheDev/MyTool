@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:MyTool"
         mc:Ignorable="d"
         Title="Wetter" Height="450" Width="800">
+    <!-- Grid Dimensions -->
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
     </Grid>
+    
+    <!-- Textboxes for Data insertion -->
+    
+    <!-- Lables for description -->
+
+    <!-- Lables for Data display -->
+
 </Window>
