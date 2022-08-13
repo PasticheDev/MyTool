@@ -6,10 +6,23 @@
         xmlns:local="clr-namespace:MyTool"
         mc:Ignorable="d"
         Title="Wetter" Height="450" Width="800">
+    <!-- Styling -->
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="21" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="20 0 0 0"/>
+        </Style>
+    </Window.Resources>
+    
     <!-- Grid Dimensions -->
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -18,12 +31,20 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        
+        <!-- Buttons -->
+        <Button Grid.Row="0" Grid.Column="2" x:Name="btnGetData" Content="GET"/>
+        <!-- Textboxes for Data insertion -->
+
+        <!-- Lables for description -->
+        <Label Grid.Row="1" Grid.Column="0" Content="Temperatur:" />
+        <Label Grid.Row="2" Grid.Column="0" Content="Test:" />
+
+        <!-- Lables for Data display -->
+        <Label Grid.Row="1" Grid.Column="1" x:Name="lblTemperature"/>
+
     </Grid>
     
-    <!-- Textboxes for Data insertion -->
     
-    <!-- Lables for description -->
-
-    <!-- Lables for Data display -->
 
 </Window>
