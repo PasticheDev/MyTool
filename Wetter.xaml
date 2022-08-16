@@ -33,15 +33,16 @@
         </Grid.ColumnDefinitions>
         
         <!-- Buttons -->
-        <Button Grid.Row="0" Grid.Column="2" x:Name="btnGetData" Content="GET"/>
+        <Button Grid.Row="0" Grid.Column="2" x:Name="btnGetData" Content="GET" Click="OnButtonClick" />
         <!-- Textboxes for Data insertion -->
+        <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="20" TextAlignment="Center" VerticalContentAlignment="Center" Background="red" x:Name="tb_city"/>
 
         <!-- Lables for description -->
         <Label Grid.Row="1" Grid.Column="0" Content="Temperatur:" />
         <Label Grid.Row="2" Grid.Column="0" Content="Test:" />
 
         <!-- Lables for Data display -->
-        <Label Grid.Row="1" Grid.Column="1" x:Name="lblTemperature"/>
+        <Label Grid.Row="1" Grid.Column="1" x:Name="lbl_temperature"/>
 
     </Grid>
     
